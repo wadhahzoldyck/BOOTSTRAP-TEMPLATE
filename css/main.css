@@ -1,11 +1,23 @@
 :root {
   --dark-color: #19283f;
   --green-color: #00c6bf;
+  --section-color: #eff7fa;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   height: 10000px;
+}
+
+.main-title::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: var(--green-color);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* start navbar */
@@ -70,3 +82,24 @@ body {
 }
 
 /* end Landing */
+
+/* start features */
+.features .icon-holder {
+  height: 200px;
+}
+.features .icon-holder i {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features .icon-holder .number {
+  font-size: 12rem;
+  color: var(--section-color);
+}
+.features .icon-holder .icon {
+  color: var(--green-color);
+}
+.features .feat h4 {
+  color: #ffc501;
+}
+
+/* end features */
