@@ -43,3 +43,30 @@ body {
 .navbar .navbar-toggler[aria-expanded="true"] {
   border-color: var(--green-color);
 }
+
+/* start Landing */
+.landing {
+  background-color: var(--dark-color);
+  min-height: calc(100vh - 72px);
+}
+.landing h1 {
+  font-size: 51px;
+  color: #f0f8fb;
+  font-weight: 300;
+}
+.landing p {
+  font-size: 15px;
+  color: #a8b9c0;
+  font-weight: 400;
+}
+.landing .main-btn {
+  width: 190px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #ff3150;
+  font-size: 15px;
+  color: #ffc501;
+  font-weight: 500;
+}
+
+/* end Landing */
